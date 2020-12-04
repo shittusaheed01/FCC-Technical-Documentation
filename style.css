@@ -29,11 +29,9 @@ header{
     border: 1px solid black;
 }
 #nav-links a{
-    background-color: #b7b7a4;
     background-color: #e5e5e5;
     color: black;
     display: block;
-    padding: 12px;
     font-size: 20px;
     border-bottom: 1px solid white;
     height: 35px;
@@ -58,7 +56,6 @@ header{
     list-style-type: square;
 }
 .function{
-    background-color: #b7b7a4 ;
     background-color: #e5e5e5;
     padding: 10px;
     font-size: 14px;
@@ -70,7 +67,7 @@ header{
 span{
     display: block;
 }
-#space{
+.space{
     width: 80%;
     margin: auto;
     list-style-type: circle;

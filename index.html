@@ -6,31 +6,37 @@
     <link rel="stylesheet" href="./style.css">
     <title>Document</title>
 </head>
+
 <body>
     <header>
-        <nav id='navbar'>
-            <header><h1 id='nav-header'>Python Documentation</h1></header>
-            <div id='nav-links'>
-                <a href="#introduction" class='nav-link'>Introduction</a>
-                <a href="#Python_Getting_Started" class='nav-link'>Python Getting Started</a>
-                <a href="#Python_Syntax" class='nav-link'>Python Syntax</a>
-                <a href="#Comments" class='nav-link'>Comments</a>
-                <a href="#Variables" class='nav-link'>Variables</a>
-                <a href="#Data_Types" class='nav-link'>Data Types</a>
-                <a href="#Dictionaries" class='nav-link'>Dictionaries</a>
+        <nav id="navbar">
+            <header>
+                <h1 id="nav-header">Python Documentation</h1>
+            </header>
+            <div id="nav-links">
+                <a href="#introduction" class="nav-link">Introduction</a>
+                <a href="#Python_Getting_Started" class="nav-link">Python Getting Started</a>
+                <a href="#Python_Syntax" class="nav-link">Python Syntax</a>
+                <a href="#Comments" class="nav-link">Comments</a>
+                <a href="#Variables" class="nav-link">Variables</a>
+                <a href="#Data_Types" class="nav-link">Data Types</a>
+                <a href="#Dictionaries" class="nav-link">Dictionaries</a>
                 <a href="#If_Else" class="nav-link">If Else</a>
-                <a href="#Arrays" class='nav-link'>Arrays</a>
-                <a href="#For_Loops" class='nav-link'>For Loops</a>
+                <a href="#Arrays" class="nav-link">Arrays</a>
+                <a href="#For_Loops" class="nav-link">For Loops</a>
                 <a href="#Functions" class="nav-link">Functions</a>
-                <a href="#Reference" class='nav-link'>Reference</a>
+                <a href="#Reference" class="nav-link">Reference</a>
             </div>
         </nav>
     </header>
     <main id="main-doc">
         <section class="main-section" id="introduction">
-            <header><h2>Introduction</h2></header>
-            <div id='content'>
-                <p>Python is a popular programming language. It was created by Guido van Rossum, and released in 1991.</p>
+            <header>
+                <h2>Introduction</h2>
+            </header>
+            <div id="content">
+                <p>Python is a popular programming language. It was created by Guido van Rossum, and released in 1991.
+                </p>
                 <p>What can Python do?</p>
                 <ul>
                     <li>Python can be used on a server to create web applications.</li>
@@ -42,55 +48,68 @@
             </div>
         </section>
         <section class="main-section" id="Python_Getting_Started">
-            <header><h2>Python Getting Started</h2></header>
+            <header>
+                <h2>Python Getting Started</h2>
+            </header>
             <div>
                 <p>Many PCs and Macs will have python already installed.
-                To check if you have python installed on a Windows PC, search in the start bar for Python or run the following on the
-                Command Line (cmd.exe):</p>
-                <code class="function">C:\Users\Your Name>python --version</code>
-                <p>To check if you have python installed on a Linux or Mac, then on linux open the command line or on Mac open the Terminal
-                and type:</p>
+                    To check if you have python installed on a Windows PC, search in the start bar for Python or run the
+                    following on the
+                    Command Line (cmd.exe):</p>
+                <code class="function">C:\Users\Your Name&gt;python --version</code>
+                <p>To check if you have python installed on a Linux or Mac, then on linux open the command line or on
+                    Mac open the Terminal
+                    and type:</p>
                 <code class="function">python --version</code>
             </div>
         </section>
         <section class="main-section" id="Python_Syntax">
-            <header><h2>Python Syntax</h2></header>
+            <header>
+                <h2>Python Syntax</h2>
+            </header>
             <div>
-                <p>As we learned in the previous page, Python syntax can be executed by writing directly in the Command Line:</p>
-                <code class="function">>>> print("Hello, World!")<span>Hello, World!</span>
+                <p>As we learned in the previous page, Python syntax can be executed by writing directly in the Command
+                    Line:</p>
+                <code class="function">&gt;&gt;&gt; print("Hello, World!") <span>Hello,                             World!</span>
                 </code>
-                <p>Or by creating a python file on the server, using the .py file extension, and running it in the Command Line:</p>
-                <code class="function">C:\Users\Your Name>python myfile.py</code>
+                <p>Or by creating a python file on the server, using the .py file extension, and running it in the
+                    Command Line:</p>
+                <code class="function">C:\Users\Your Name&gt;python myfile.py</code>
             </div>
         </section>
         <section class="main-section" id="Comments">
-            <header><h2>Comments</h2></header>
+            <header>
+                <h2>Comments</h2>
+            </header>
             <div>
                 <p>Comments can be used to explain Python code.
-                
-                <span> can be used to make the code more readable.</span>
-                
-                <span> can be used to prevent execution when testing code.</span></p>
-                <p >Comments starts with a #, and Python will ignore them:</p>
+
+                    <span> can be used to make the code more readable.</span>
+
+                    <span> can be used to prevent execution when testing code.</span></p>
+                <p>Comments starts with a #, and Python will ignore them:</p>
                 <code class="function">#This is a comment
                     <span>print("Hello, World!")</span>
                 </code>
             </div>
         </section>
-        <section class="main-section" id='Variables'>
-            <header><h2>Variables</h2></header>
+        <section class="main-section" id="Variables">
+            <header>
+                <h2>Variables</h2>
+            </header>
             <div>
                 <p>Variables are containers for storing data values</p>
                 <p>Python has no command for declaring a variable.
-                <span> variable is created the moment you first assign a value to it.</span></p>
+                    <span> variable is created the moment you first assign a value to it.</span></p>
                 <code class="function">x = 5
                 <span>y = "John"</span>
                 <span>print(x) #x= 5</span>
                 <span>print(y) #y= "John"</span></code>
                 <h3>Multi Line Comments</h3>
                 <p>Python does not really have a syntax for multi line comments.</p>
-                <p>Since Python will ignore string literals that are not assigned to a variable, you can add a multiline string (triple
-                quotes) in your code, and place your comment inside it:</p>
+                <p>Since Python will ignore string literals that are not assigned to a variable, you can add a multiline
+                    string (triple
+                    quotes) in your code, and place your comment inside it:</p>
                 <code class="function">
                     """
                     <span>This is a comment</span>
@@ -100,8 +119,10 @@
                 </code>
             </div>
         </section>
-        <section class="main-section" id='Data_Types'>
-            <header><h2>Data Types</h2></header>
+        <section class="main-section" id="Data_Types">
+            <header>
+                <h2>Data Types</h2>
+            </header>
             <div>
                 <h3>Built-in Data Types</h3>
                 <p>In programming, data type is an important concept.</p>
@@ -109,18 +130,20 @@
                 <p>Python has the following data types built-in by default, in these categories:</p>
                 <ul>
                     <li>Python has the following data types built-in by default, in these categories:</li>
-                    <li id='space'>Text Type: str</li>
-                    <li id='space'>Numeric Types: int, float, complex</li>
-                    <li id='space'>Sequence Types: list, tuple, range</li>
-                    <li id='space'>Mapping Type: dict</li>
-                    <li id='space'>Set Types: set, frozenset</li>
-                    <li id='space'>Boolean Type: bool</li>
+                    <li class="space">Text Type: str</li>
+                    <li class="space">Numeric Types: int, float, complex</li>
+                    <li class="space">Sequence Types: list, tuple, range</li>
+                    <li class="space">Mapping Type: dict</li>
+                    <li class="space">Set Types: set, frozenset</li>
+                    <li class="space">Boolean Type: bool</li>
                     <li>Binary Types: bytes, bytearray, memoryview</li>
                 </ul>
             </div>
         </section>
         <section class="main-section" id="Dictionaries">
-            <header><h2>Dictionaries</h2></header>
+            <header>
+                <h2>Dictionaries</h2>
+            </header>
             <div>
                 <p>Dictionaries are used to store data values in key:value pairs.</p>
                 <p>A dictionary is a collection which is unordered, changeable and does not allow duplicates.</p>
@@ -138,34 +161,39 @@
             </div>
         </section>
         <section class="main-section" id="If_Else">
-            <header><h2>If Else</h2></header>
+            <header>
+                <h2>If Else</h2>
+            </header>
             <div>
                 <h3>Python Conditions and If statements</h3>
                 <p>Python supports the usual logical conditions from mathematics:</p>
                 <ul>
                     <li>Equals: a == b</li>
                     <li>Not Equals: a != b</li>
-                    <li>Less than: a < b</li>
-                    <li>Less than or equal to: a <= b</li>
-                    <li>Greater than: a > b</li>
-                    <li>Greater than or equal to: a >= b</li>
+                    <li>Less than: a &lt b</li>
+                    <li>Less than or equal to: a &lt= b</li>
+                    <li>Greater than: a &gt; b</li>
+                    <li>Greater than or equal to: a &gt;= b</li>
                 </ul>
                 <p>These conditions can be used in several ways, most commonly in "if statements" and loops.</p>
                 <code class="function">
                     a = 33
                     <span>b = 200</span>
-                    <span>if b > a:</span>
+                    <span>if b &gt; a:</span>
                     <span>print("b is greater than a")</span>
                 </code>
             </div>
         </section>
-        <section class="main-section" id='Arrays'>
-            <header><h2>Arrays</h2></header>
+        <section class="main-section" id="Arrays">
+            <header>
+                <h2>Arrays</h2>
+            </header>
             <div>
                 <h3>What is an Array?</h3>
                 <p>An array is a special variable, which can hold more than one value at a time.</p>
-                <p>If you have a list of items (a list of car names, for example), storing the cars in single variables could look like
-                this:</p>
+                <p>If you have a list of items (a list of car names, for example), storing the cars in single variables
+                    could look like
+                    this:</p>
                 <code>car1 = "Ford"
                     <span>car2 = "Volvo"</span>
                     <span>car3 = "BMW"</span>
@@ -173,17 +201,24 @@
             </div>
 
         </section>
-        <section class="main-section" id='For_Loops'>
-            <header><h2>For Loops</h2></header>
+        <section class="main-section" id="For_Loops">
+            <header>
+                <h2>For Loops</h2>
+            </header>
             <div>
-                <p>A for loop is used for iterating over a sequence (that is either a list, a tuple, a dictionary, a set, or a string).</p>
-                <p>This is less like the for keyword in other programming languages, and works more like an iterator method as found in
-                other object-orientated programming languages.</p>
-                <p>With the for loop we can execute a set of statements, once for each item in a list, tuple, set etc.</p>
+                <p>A for loop is used for iterating over a sequence (that is either a list, a tuple, a dictionary, a
+                    set, or a string).</p>
+                <p>This is less like the for keyword in other programming languages, and works more like an iterator
+                    method as found in
+                    other object-orientated programming languages.</p>
+                <p>With the for loop we can execute a set of statements, once for each item in a list, tuple, set etc.
+                </p>
             </div>
         </section>
         <section class="main-section" id="Functions">
-            <header><h2>Functions</h2></header>
+            <header>
+                <h2>Functions</h2>
+            </header>
             <div>
                 <p>A function is a block of code which only runs when it is called.</p>
                 <p>You can pass data, known as parameters, into a function.</p>
@@ -197,10 +232,13 @@
             </div>
         </section>
         <section class="main-section" id="Reference">
-            <header><h2>Reference</h2></header>
+            <header>
+                <h2>Reference</h2>
+            </header>
             <div>
                 <ul>
-                    <li>All the documentation in this page is taken from <a href="https://www.w3schools.com/python/default.asp">w3schools</a></li>
+                    <li>All the documentation in this page is taken from <a
+                            href="https://www.w3schools.com/python/default.asp">w3schools</a></li>
                 </ul>
             </div>
         </section>
