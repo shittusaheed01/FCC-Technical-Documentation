@@ -62,8 +62,13 @@ header{
     background-color: #e5e5e5;
     padding: 10px;
     font-size: 14px;
-
+    width: 80%;
+    margin: auto;
+    display: block;
     font-family: 'Hind Siliguri', sans-serif;
+}
+span{
+    display: block;
 }
 #space{
     width: 80%;
